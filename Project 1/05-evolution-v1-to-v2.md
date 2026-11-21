@@ -1,6 +1,16 @@
-# Evolution: from v1 (2023) to v2 (2025), and what comes next
+# Kinpay: evolution from v1 to v2, and what comes next
 
-This document explains how [Brand] changed between the two releases, why, and what we would improve next. It is the story to tell in the case study: a product that grew with its users.
+| | |
+|---|---|
+| **Document** | Product evolution brief |
+| **Covers** | v1.0 (released January 2026) and v2.0 (released August 2026) |
+| **Related** | [PRD v1](03-prd-v1.md), [PRD v2](04-prd-v2.md) |
+| **Owner** | Nikunj Chauhan, Product Designer |
+| **Status** | Final |
+
+> **Concept disclaimer.** Kinpay is an original portfolio concept, not affiliated with any company. Targets are assumptions, not measured results.
+
+This document explains how Kinpay changed between the two releases, why, and what we would improve next. It is the story to tell in the case study: a product that grew with its users.
 
 ## 1. One-line summary
 
@@ -8,7 +18,7 @@ This document explains how [Brand] changed between the two releases, why, and wh
 
 ## 2. What changed
 
-| Area | v1 (Nov 2023) | v2 (2025) | Why |
+| Area | v1 (Jan 2026) | v2 (Aug 2026) | Why |
 |---|---|---|---|
 | Navigation | Transfer tab with a contact list | Payments tab with conversations | People think in people and context, not in forms |
 | Request | Payment link with expiry and a status tracker | Request bubble in a thread, with a note, GIF and Cancel | A link loses context after sending |
@@ -74,6 +84,7 @@ Each item comes from a gap seen in the 2025 reference screens. Validate with res
 | 10 | **Privacy at first use** | Settings are buried | Ask once during onboarding, plain language | Small |
 
 ### Suggested order
+
 1. Smart settle preview and smart reminders (small, quick wins)
 2. Choose who paid, balance overview (core gaps)
 3. Receipt split and guest view (differentiators)

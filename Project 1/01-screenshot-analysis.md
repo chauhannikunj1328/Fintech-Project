@@ -8,6 +8,7 @@ Internal research notes. The source app is called "the reference app" throughout
 ## 1. What the app is
 
 A mobile money app that combines:
+
 - A current account with multi-currency balances
 - Cards (physical, virtual, disposable)
 - Peer payments
@@ -55,6 +56,7 @@ Navigation is five tabs: **Home, Invest, Payments, Crypto, Lifestyle**. The Tran
 ## 4. The part that matters: payments between people
 
 ### 4.1 2023 behaviour
+
 - "Who to pay" is a list with search, alphabet index, Friends and Accounts filters, and links to invite a friend or add a bank recipient (353).
 - Sending money is a form: amount, reference, optional schedule, review, send (356-364).
 - A friend's profile shows total sent, account details and scheduled transfers (381-385).
@@ -64,6 +66,7 @@ Navigation is five tabs: **Home, Invest, Payments, Crypto, Lifestyle**. The Tran
 - Vaults let people invite friends to a shared pot (315-322). That is shared saving, not expenses.
 
 ### 4.2 2025 behaviour
+
 - Payments tab is a **chat-style contact list**. Each row shows the last event, for example "You requested $10" (394-397). Swiping reveals **Request** and **Send** (396).
 - Opening a contact shows a thread: sent and received payments appear as message bubbles, with a note, GIFs, emoji reactions and a text box (452-473). Request and Send sit above the keyboard.
 - Request flow: amount, optional note or GIF, Request (456-461). A pending request shows a Cancel button on the bubble.
@@ -73,6 +76,7 @@ Navigation is five tabs: **Home, Invest, Payments, Crypto, Lifestyle**. The Tran
 - Messaging can be switched off by a privacy setting, and some contacts cannot be chatted with (468).
 
 ### 4.3 2025 groups and split bill
+
 1. **Create group** (484-491): add members from friends, name, cover photo, label chips (Home, Friends, Family, Holiday, Party, Celebration), currency, **Smart settle** toggle ("consolidate debts and reduce number of payments").
 2. **Group thread** (492): empty state, "Add a bill", message box.
 3. **Select bill** (493-494): pick one or more **past card or account transactions**, or "Create a custom bill".
@@ -85,6 +89,7 @@ Navigation is five tabs: **Home, Invest, Payments, Crypto, Lifestyle**. The Tran
 10. Home shows an **"Owes you"** card with Remind and Cancel (639).
 
 ### 4.4 Cross-cutting patterns worth noting
+
 - Calculator keyboard for amounts, with quick-amount chips ($10 / $20 / $50 / $100).
 - Bottom-sheet confirmations for every destructive or irreversible action.
 - Success toast or modal after each action, plus a tracker for long operations.
@@ -95,6 +100,7 @@ Navigation is five tabs: **Home, Invest, Payments, Crypto, Lifestyle**. The Tran
 ## 5. Edge cases and states captured (usable as a checklist)
 
 Good coverage in the reference:
+
 - Wrong OTP (2025: 013)
 - Blurry ID photo, too dark selfie (2023: 027; 2025: 041, 647)
 - Card declined for insufficient funds (2025: 086, 116)

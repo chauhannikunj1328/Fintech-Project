@@ -1,5 +1,11 @@
 .DS_Store
-# Reference screenshots and zips: local only, never push
-Reference Fintech App/
+# Screenshots and zips: local only, never push
 *.png
 *.zip
+# This repo is for Project 1 (Revolut) only
+Project 2/
+Project 3/
+Project 4/
+Project 5/
+Project 6/
+Reference Fintech App/

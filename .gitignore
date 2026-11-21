@@ -1,3 +1,5 @@
 .DS_Store
-# Reference zips exceed GitHub 100MB limit; kept local only
-Reference Fintech App/*.zip
+# Reference screenshots and zips: local only, never push
+Reference Fintech App/
+*.png
+*.zip
